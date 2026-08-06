@@ -15,5 +15,3 @@ def get_news():
         return news_list
     return None             
 print(get_news())
-def jprint(obj):
-    print(json.dumps(obj, indent=4, sort_keys=True))
